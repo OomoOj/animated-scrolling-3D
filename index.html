@@ -23,7 +23,7 @@ const loader = new GLTFLoader();
 
 // Fixed GLB URL - using raw.githubusercontent.com which serves with proper CORS headers
 loader.load(
-  "./scifi_drone.glb",
+  "https://raw.githubusercontent.com/OomoOj/animated-scrolling-3D/refs/heads/main/butterfly.glb",
   function (gltf) {
     bee = gltf.scene;
     scene.add(bee);
